@@ -7,9 +7,8 @@
 ####################
 
 # Export
-export GOROOT=$HOME/go
-export GOPATH=$HOME/non-go
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
 # Terminal quote
 fortune | cowsay | lolcat
